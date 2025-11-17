@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI/UX Designer Portfolio
 
 A modern, responsive portfolio website showcasing UI/UX design work, built with React, TypeScript, TailwindCSS, and Framer Motion.
@@ -204,3 +205,7 @@ This project is open source and available under the MIT License.
 ---
 
 ⭐️ If you like this portfolio template, please give it a star!
+=======
+# Portfolio
+Personal Portfolio
+>>>>>>> 2f7c744433631963531fb08c55cae4631c15625a

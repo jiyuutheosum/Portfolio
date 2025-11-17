@@ -43,9 +43,9 @@
   --chart-3: 220 90% 48%;
   --chart-4: 340 82% 52%;
   --chart-5: 160 75% 42%;
-  --font-sans: Open Sans, sans-serif;
-  --font-serif: Georgia, serif;
-  --font-mono: Menlo, monospace;
+  --font-sans: 'DM Sans', 'Inter', system-ui, sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
   --radius: .5rem;
   --shadow-2xs: 0px 2px 0px 0px hsl(240 5% 10% / 0.00);
   --shadow-xs: 0px 2px 0px 0px hsl(240 5% 10% / 0.00);
@@ -168,6 +168,12 @@
 @layer base {
   * {
     @apply border-border;
+  }
+
+  /* Enable smooth scrolling for navigation links */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Offset for fixed navbar */
   }
 
   body {
